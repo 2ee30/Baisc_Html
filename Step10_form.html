@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Step10_form.html</title>
+</head>
+<body>
+<h1>form 요소 작성하기</h1>
+<form action="logicAction" method="post">
+<!-- from 이 제출이 될떄 어디로 제출이 될지 결정이 되는 값 -->
+    <label for="email">이메일</label>
+    <!-- 아래의 input 요소의 lable 임을 나타낸다.-->
+    <input type="text" id="email" name="email"/>
+    <label for="pwd">비밀번호</label>
+    <!-- 아래의 input 요소의 lable 임을 나타낸다.-->
+    <!-- 비밀번호는 노출되지 않도록 type="password"-->
+    <input type="password" id="pwd" name="pwd">
+    <button type="submit">로그인</button>
+    <!-- form 안에 있는 button type="submit" 버튼을 누르면 form 이 제출된다.-->
+</form>
+</body>
+</html>
